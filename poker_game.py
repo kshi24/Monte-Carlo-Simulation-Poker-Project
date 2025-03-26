@@ -1,4 +1,5 @@
-
+import math
+from card import Card
 # Implements the prompting for input throughout the game.
 class Poker_game:
     # runs each round

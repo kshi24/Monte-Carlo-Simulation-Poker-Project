@@ -1,3 +1,5 @@
+from card import Card
+
 class Test:
     def test(function_result, expected, label):
         print(label)
