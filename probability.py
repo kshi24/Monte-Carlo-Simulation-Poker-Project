@@ -23,7 +23,9 @@ class Probability:
            
     # create list of seperate card hands 
     
-    
+    function new_card(){
+        
+    }
     
     
     #determines which hand is the winner 
