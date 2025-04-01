@@ -1,5 +1,7 @@
 # Imports built in math function
 import math
+from poker_game import Poker_game
+from test import Test
 
 def main():
     Test.run_test()

@@ -1,5 +1,7 @@
 
 import math
+from hand_helper import Hand_helper
+
 # Implements methods that identify which type of hand is actively in a list of cards of various lengths
 class Hand:
     @staticmethod
