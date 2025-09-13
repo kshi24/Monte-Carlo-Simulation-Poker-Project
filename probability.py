@@ -63,7 +63,7 @@ class Probability:
         return player_wins
 
     @staticmethod
-    def monte_carlo(card_list, opps, sim_runs=100000):
+    def monte_carlo(card_list, opps, sim_runs=10000):
         wins = 0
         for i in range(sim_runs):
             if Probability.run_game(card_list, opps):
@@ -74,4 +74,4 @@ class Probability:
         probability = wins / sim_runs
         sd = ((wins * (1 - probability) * (1 - probability)) + ((sim_runs - wins) * probability * probability))/sim_runs
         print(f"\nFinal win probability: {probability:.4f} (based on {sim_runs} simulations)")
-        return probability
+        return probability  # IMPORTANT: This line now returns the probability
